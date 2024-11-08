@@ -1,0 +1,137 @@
+.top-container{
+  background-image: url(./backgroundimage.png);
+  display: block;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+}
+body,h1,p {
+  margin: 0;
+}
+
+.dolhpin {
+  width: 100%;
+}
+.name {
+  font-family: "Comic Neue", cursive;
+  font-size: 2rem;
+  color: white;
+  padding-top: 100px;
+}
+
+.paragraph-one{
+  font-family: "Teachers", sans-serif;
+  font-size: 20px;
+  color: white;
+  padding-top: 10px;
+}
+
+.dolphin-container {
+  text-align: end;
+}
+.middle-container {
+  display: block;
+  margin: 50px 80px 20px 80px;
+  text-align: center;
+}
+.sree {
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+}
+.about-me {
+  text-align: center;
+}
+
+.middle-paragraph{
+  padding-top: 20px;
+  text-align: center;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.hello {
+  font-family:"Homemade Apple", cursive;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.my-skills{
+  display: grid;
+  grid-template-columns: .5fr .5fr;
+  grid-template-rows: 1fr 1fr ;
+  justify-content: center;
+  align-items: center;
+}
+
+.two, .five {
+  text-align: end;
+  padding-right: 30px;
+}
+
+.heading-para {
+  text-align: start;
+}
+
+
+.bottom-container {
+  text-align: center;
+  margin: 50px 150px 20px 150px ;
+}
+
+h2 {
+  font-family: "Comic Neue", cursive;
+}
+
+p{
+  font-family: "Teachers", sans-serif;
+}
+
+.footer {
+  display: block;
+  margin: 50px 80px 20px 80px;
+  text-align: center;
+}
+
+.bottom-para {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+
+
+.call-button {
+  margin-top: 100px;
+  width: 150px;
+  background-color: aqua;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+.contact {
+  font-size: 3rem;
+  align-self: flex-end;
+}
+
+.footer-one {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.footer-div {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(181,232,232,1) 49%, rgba(0,211,255,1) 79%, rgba(0,211,255,1) 93%);
+  height: 30vh;
+}
+.copyright {
+  text-align: center;
+}
